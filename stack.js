@@ -1,34 +1,34 @@
 // basic implementation of Stack Data Structure
 function Stack() {
-  items = []
+  items = [];
 
-  this.push = (element) => {
-    items.push(element)
-  }
+  this.push = element => {
+    items.push(element);
+  };
 
   this.pop = () => {
-    return items.pop()
-  }
+    return items.pop();
+  };
 
   this.peek = () => {
-    return items[items.length - 1]
-  }
+    return items[items.length - 1];
+  };
 
   this.isEmpty = () => {
-    return items.length === 0
-  }
+    return items.length === 0;
+  };
 
   this.size = () => {
-    return items.length
-  }
+    return items.length;
+  };
 
   this.clear = () => {
-    items = []
-  }
+    items = [];
+  };
 
   this.print = () => {
-    console.log(items.toString())
-  }
+    console.log(items.toString());
+  };
 }
 
 /*

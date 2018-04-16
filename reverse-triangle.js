@@ -6,7 +6,7 @@
 54321
 */
 
-let z = '';
+let z = "";
 for (let i = 1; i <= 5; i++) {
   z = i.toString() + z;
   console.log(z);

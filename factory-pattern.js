@@ -1,19 +1,21 @@
 const Person = (name, age, location) => {
-	const data = {
+  const data = {
     name,
     age,
-    location
-  }
+    location,
+  };
 
   data.printPerson = () => {
-  	console.log(`Name: ${data.name}, Age: ${data.age}, Location: ${data.location}`)
-  }
+    console.log(
+      `Name: ${data.name}, Age: ${data.age}, Location: ${data.location}`,
+    );
+  };
 
-  return data
-}
+  return data;
+};
 
 // factory pattern doesn't use 'new' keyword
-const onin = Person('Onin', 35, 'Makati')
-const marebel = Person('Marebel', 34, 'Roxas')
-onin.printPerson()
-marebel.printPerson()
+const onin = Person("Onin", 35, "Makati");
+const marebel = Person("Marebel", 34, "Roxas");
+onin.printPerson();
+marebel.printPerson();

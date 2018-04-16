@@ -1,0 +1,25 @@
+<html>
+
+<head>
+  <script>
+    function optionalPow(a, b) {
+      if (!(a >= -50 && a <= 50 && b >= -50 && b <= 50)) {
+        return;
+      }
+      if (confirm('')) {
+        optionalPow = a ** b;
+      } else {
+        optionalPow = b ** a;
+      }
+      return optionalPow;
+    }
+    optionalPow(2, 3)
+  </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

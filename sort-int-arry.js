@@ -1,6 +1,6 @@
 // sort array
 
-let myArray = ['7', 8, '3', 4, '1', 2, 5, 6];
+let myArray = ["7", 8, "3", 4, "1", 2, 5, 6];
 
 myArray.sort((a, b) => {
   return a - b;

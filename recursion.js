@@ -6,7 +6,7 @@ var factorial = function fac(num) {
   }
 
   return num * fac(num - 1);
-}
+};
 
-var final = factorial(5)
-console.log(final)
+var final = factorial(5);
+console.log(final);
